@@ -1,0 +1,15 @@
+- name: ponomarCourse
+  gather_facts: false
+  hosts: [all]
+  become: yes
+
+  tasks:
+
+    - name: Create course
+      docker_container:
+        name: course
+        image: pon0mar/courseapp
+        pull: true
+        state: started
+        ports:
+          - "80:80"
