@@ -8,7 +8,7 @@
     - name: Create course
       docker_container:
         name: course
-        image: pon0mar/courseapp
+        image: pon0mar/course
         pull: true
         state: started
         ports:
