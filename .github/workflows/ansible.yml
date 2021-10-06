@@ -28,7 +28,7 @@ jobs:
           github_token: ${{secrets.GITTOKEN}}
           workflow: terraform.yml
           workflow_conclusion: success
-          name: Terraform
+          name: terraform
           repo: pon0marev/iac
 
       - id: host
