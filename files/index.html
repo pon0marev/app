@@ -1,1 +1,388 @@
-homework2
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+
+    <link href="css/libs.min.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="css/main.min.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <!--[if it IE 9]>
+        <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js></script>
+    <![endif]-->
+
+    <title>Novonikolaevsk</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header_left">
+            <img class = "logo" alt="" src="img/logo.png">
+        </div>
+        <div class="header_image">
+            <img class = "header__img-city" src="img/city.png">
+        </div>
+        <div class="header_links">
+            <div class="favorites-block">
+                <a href="/" class="favorites-block__item favorites-block__item_favourite"><i class="fa fa-star" aria-hidden="true"></i> Добавить в избраное</a>
+                <a href="/" class="favorites-block__item favorites-block__item_start"><i class="fa fa-bookmark" aria-hidden="true"></i> Сделать стартовой</a>
+            </div>
+            <div class="header-form">
+                <div class = "header-form__item">
+                    <input class = "header-form__input" type="text" placeholder="Логин">
+                    <input class = "header-form__input" type="password" placeholder="Пароль">
+                    <input type="button" class="header-form__button header-form__button_send-button" value="Ok">
+                </div>
+                <div class = "header-form__item">
+                    <a href="#" class="header-form__button header-form__button_author">Регистрация</a>
+                    <a href="#" class="header-form__button header-form__button_author">Забыли пароль?</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <ul class="navigation__navigation-list">
+            <li class="navigation__item"><a class = "navigation__link" href="/">Главная</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Новости</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Недвижимость</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Афиша</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Автомобили</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Бизнес</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Спорт</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Развлечения</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Блоги</a></li>
+            <li class="navigation__item"><a class = "navigation__link" href="/">Контакты</a></li>
+        </ul>
+    </nav>
+    <main class = "main">
+
+        <div class="main__left">
+            <div id ="slider" class="slider">
+                <div class="slider__img-zone">
+                    <img id = "slider__img" src="img/slider1.jpg" alt="IMAGES" class = "slider__img">
+                    <div id = "slider__desc" class="slider__img-description">
+                        <p class="slider__img-description_title">В Днепропетровске русскому языку намерены присвоить статус регионального</p>
+                        <p class="slider__img-description_text">
+                            В Днепропетровске русскому языку намерены присвоить статус регионального
+                        </p>
+                    </div>
+                </div>
+                <ul id = "slider__list" class="slider__list">
+                    <li class="slider__item"><a href="img/slider1.jpg" class="slider__item_link ">Днепропетровцев планетарий проводит акцию</a></li>
+                    <li class="slider__item"><a href="img/slider2.jpg" class="slider__item_link">Днепропетровцев травят некачественной сгущенкой</a></li>
+                    <li class="slider__item"><a href="img/slider1.jpg" class="slider__item_link">Днепровский планетрий проводит акцию</a></li>
+                    <li class="slider__item"><a href="img/slider2.jpg" class="slider__item_link">В 93 отдельной механизированной бригаде проходят учебные сборы студентов НГУ.</a></li>
+                    <li class="slider__item  slider__item_selected"><a href="img/slider1.jpg" class="slider__item_link">В Днепропетровске русскому языку намерены присвоить статус регионального</a></li>
+                    <li class="slider__item"><a href="img/slider2.jpg" class="slider__item_link">ГАИ разрешило водителям ездить змейкой</a></li>
+                </ul>
+            </div>
+            <section class="articles">
+                <h3 class = "articles__title">Последние новости</h3>
+
+                <article class = "article">
+                    <div class="article_left">
+                        <img src="img/slider1.jpg" alt="" class="article__img">
+                    </div>
+                    <div class="article_right">
+                        <span class = "article__date">##.##.#### ##:##</span>
+                        <h4 class = "article__title">Наименование статьи</h4>
+                        <p class = "article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                        </p>
+                        <div class="article__statistics">
+                            <span class = "article__view-count">Просмотров: --</span>
+                            <span class="article__comment-count">Комментариев: --</span>
+                            <a href="#" class="button button_padding_10">Читать полностью</a>
+                        </div>
+                    </div>
+
+                </article>
+                <article class = "article">
+                    <div class="article_left">
+                        <img src="img/slider1.jpg" alt="" class="article__img">
+                    </div>
+                    <div class="article_right">
+                        <span class = "article__date">##.##.#### ##:##</span>
+                        <h4 class = "article__title">Наименование статьи</h4>
+                        <p class = "article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                        </p>
+                        <div class="article__statistics">
+                            <span class = "article__view-count">Просмотров: --</span>
+                            <span class="article__comment-count">Комментариев: --</span>
+                            <a href="#" class="button button_padding_10 ">Читать полностью</a>
+                        </div>
+                    </div>
+
+                </article>
+                <article class = "article">
+                    <div class="article_left">
+                        <img src="img/slider1.jpg" alt="" class="article__img">
+                    </div>
+                    <div class="article_right">
+                        <span class = "article__date">##.##.#### ##:##</span>
+                        <h4 class = "article__title">Наименование статьи</h4>
+                        <p class = "article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                        </p>
+                        <div class="article__statistics">
+                            <span class = "article__view-count">Просмотров: --</span>
+                            <span class="article__comment-count">Комментариев: --</span>
+                            <a href="#" class="button button_padding_10 ">Читать полностью</a>
+                        </div>
+                    </div>
+
+                </article>
+                <article class = "article">
+                    <div class="article_left">
+                        <img src="img/slider1.jpg" alt="" class="article__img">
+                    </div>
+                    <div class="article_right">
+                        <span class = "article__date">##.##.#### ##:##</span>
+                        <h4 class = "article__title">Наименование статьи</h4>
+                        <p class = "article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                        </p>
+                        <div class="article__statistics">
+                            <span class = "article__view-count">Просмотров: --</span>
+                            <span class="article__comment-count">Комментариев: --</span>
+                            <a href="#" class="button button_padding_10 ">Читать полностью</a>
+                        </div>
+                    </div>
+
+                </article>
+                <article class = "article">
+                    <div class="article_left">
+                        <img src="img/slider1.jpg" alt="" class="article__img">
+                    </div>
+                    <div class="article_right">
+                        <span class = "article__date">##.##.#### ##:##</span>
+                        <h4 class = "article__title">Наименование статьи</h4>
+                        <p class = "article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                        </p>
+                        <div class="article__statistics">
+                            <span class = "article__view-count">Просмотров: --</span>
+                            <span class="article__comment-count">Комментариев: --</span>
+                            <a href="#" class="button button_padding_10 ">Читать полностью</a>
+                        </div>
+                    </div>
+
+                </article>
+                <article class = "article">
+                    <div class="article_left">
+                        <img src="img/slider1.jpg" alt="" class="article__img">
+                    </div>
+                    <div class="article_right">
+                        <span class = "article__date">##.##.#### ##:##</span>
+                        <h4 class = "article__title">Наименование статьи</h4>
+                        <p class = "article__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur enim illum omnis veritatis voluptate. Adipisci animi fugit iure laborum reiciendis!
+                        </p>
+                        <div class="article__statistics">
+                            <span class = "article__view-count">Просмотров: --</span>
+                            <span class="article__comment-count">Комментариев: --</span>
+                            <a href="#" class="button button_padding_10 ">Читать полностью</a>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <ul class="pagination">
+                    <li class="pagination__item"><a href="#" class="pagination__link pagination__link_right_margin"><span><<</span>Предыдущая</a></li>
+                    <li class="pagination__item pagination__item_active"><a href="#" class="pagination__link">1</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">4</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">5</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">6</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">7</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">8</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">9</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">10</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link">...</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link pagination__link_left_margin">Следующая<span>>></span></a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="main__right">
+
+            <div class="banner">
+
+            </div>
+
+            <div class="blogs">
+                <div class="blogs__title">
+                    <a href="#" class="button button_padding_10">Последнее в блогах</a>
+                    <i class="blogs__icon fa fa-newspaper"></i>
+                </div>
+                <div class="blogs__item">
+                    <img src="img/slider1.jpg" alt="" class="blogs__item-img">
+                    <span class="blogs__text">
+                        Научиться гипнозу и открыть в себе скрытые
+                        способности смогут новосибирцы на мистическом шоу
+                    </span>
+                </div>
+                <div class="blogs__item">
+                    <img src="img/slider1.jpg" alt="" class="blogs__item-img">
+                    <span class="blogs__text">
+                        Вирус бешенства обнаружен в 17 населенных
+                        пунктах Новосибирской области
+                    </span>
+                </div>
+                <div class="blogs__item">
+                    <img src="img/slider1.jpg" alt="" class="blogs__item-img">
+                    <span class="blogs__text">
+                        На время выставки "Город-сад" будут
+                        запущены дополнительные автобусы
+                    </span>
+                </div>
+                <div class="blogs__item">
+                    <img src="img/slider1.jpg" alt="" class="blogs__item-img">
+                    <span class="blogs__text">
+                        Говорящая Баба-Яга действует в
+                        сказочном дворе на улице Новоуральской
+                    </span>
+                </div>
+                <div class="blogs__item">
+                    <img src="img/slider1.jpg" alt="" class="blogs__item-img">
+                    <span class="blogs__text">
+                        Новосибирцы смогут бесплатно оставить в полиции
+                        отпечатки своих пальцев
+                    </span>
+                </div>
+            </div>
+
+            <div class="comments">
+                <div class="comments__title">
+                    <a href="#" class="button button_padding_10">Последнии комментарии</a>
+                    <i class="comments__icon fa fa-comments"></i>
+                </div>
+                <div class="comments__item">
+                    <div class="comments__item-title">
+                        <span class="comments__user-name">Jone Doe</span>
+                        <span class="comments__item-date">21:21 01/01/2018</span>
+                    </div>
+                    <span class="comments__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Asperiores blanditiis eum expedita fuga
+                        fugit itaque provident quae quas ut voluptatum.
+                    </span>
+                </div>
+                <div class="comments__item">
+                    <div class="comments__item-title">
+                        <span class="comments__user-name">Jone Doe</span>
+                        <span class="comments__item-date">21:21 01/01/2018</span>
+                    </div>
+                    <span class="comments__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Asperiores blanditiis eum expedita fuga
+                        fugit itaque provident quae quas ut voluptatum.
+                    </span>
+                </div>
+                <div class="comments__item">
+                    <div class="comments__item-title">
+                        <span class="comments__user-name">Jone Doe</span>
+                        <span class="comments__item-date">21:21 01/01/2018</span>
+                    </div>
+                    <span class="comments__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Asperiores blanditiis eum expedita fuga
+                        fugit itaque provident quae quas ut voluptatum.
+                    </span>
+                </div>
+                <div class="comments__item">
+                    <div class="comments__item-title">
+                        <span class="comments__user-name">Jone Doe</span>
+                        <span class="comments__item-date">21:21 01/01/2018</span>
+                    </div>
+                    <span class="comments__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Asperiores blanditiis eum expedita fuga
+                        fugit itaque provident quae quas ut voluptatum.
+                    </span>
+                </div>
+                <div class="comments__item">
+                    <div class="comments__item-title">
+                        <span class="comments__user-name">Jone Doe</span>
+                        <span class="comments__item-date">21:21 01/01/2018</span>
+                    </div>
+                    <span class="comments__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Asperiores blanditiis eum expedita fuga
+                        fugit itaque provident quae quas ut voluptatum.
+                    </span>
+                </div>
+            </div>
+
+            <div class="announcement">
+                <div class="announcement__title">
+                    <a href="#" class="button button_padding_10">Городской аннонс</a>
+                    <i class="announcement__icon fa fa-info"></i>
+                </div>
+                <img src="img/slider1.jpg" alt="" class="announcement__item-img">
+                <span class="announcement__item-title">
+                    Какая-то большая городская новинка
+                </span>
+                <span class="announcement__text">
+                        Научиться гипнозу и открыть в себе скрытые
+                        способности смогут новосибирцы на мистическом шоу
+                </span>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class = "footer" >
+        <div class="footer_left">
+            <img alt="" src="img/logo.png">
+        </div>
+        <div class="footer_center">
+            <p class = "footer__text">
+                &#169 2011 - 2018 Информационный портал города Николаевска.<br>
+                Все права защищены. Копирование метиралов разрешено только при наличии активной ссылки на сайт
+                или с разрешения администрации сайта.
+            </p>
+        </div>
+        <div class="footer_right footer__text">
+            <div class="social-metrics">
+                <div class="flusher" style = " width: 100px; height: 50px; background-color: #fff;"></div>
+                <div class="flusher" style = " width: 100px; height: 50px; background-color: #cccec8;"></div>
+            </div>
+            <div class="footer__social-buttons">
+                <h6 class="social-header">Мы в соц. сетях:</h6>
+                <a href="#" class="social-buttons__button"><i class = "fa fa-rss " aria-hidden="true"></i></a>
+                <a href="#" class="social-buttons__button"><i class = "fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="social-buttons__button"><i class = "fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="social-buttons__button"><i class = "fab fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>
