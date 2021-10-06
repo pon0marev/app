@@ -3,7 +3,7 @@ name: 'Ansible'
 on:
   workflow_run:
     workflows:
-      - docker
+      - Docker Image
     types: 
       - completed
     branches:
